@@ -24,7 +24,7 @@ const routes: Routes = [
       },
       {
         path: 'loop',
-        loadChildren: './+authorized/authorized.module#AuthorizedModule',
+        loadChildren: './authorized.module#AuthorizedModule',
       },
     ]
   },

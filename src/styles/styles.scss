@@ -1,10 +1,8 @@
-body {
-	font-family: sans-serif;
-	background: #448;
-	color: #fff;
-}
-a {
-	color: #fb0;
-	&:hover {text-decoration: none;}
-	&.active {text-decoration: none; color: #fd8;}
-}
+@import "~angular2-mdl/scss/color-definitions";
+
+$color-primary: $palette-blue-500;
+$color-primary-dark: $palette-blue-700;
+$color-accent: $palette-orange-A200;
+$color-primary-contrast: $color-dark-contrast;
+$color-accent-contrast: $color-dark-contrast;
+@import '~angular2-mdl/scss/material-design-lite';
