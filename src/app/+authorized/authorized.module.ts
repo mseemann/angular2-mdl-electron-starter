@@ -21,11 +21,7 @@ const routes: Routes = [
       {
         path: 'page2',
         component: Page2Component,
-      },
-      {
-        path: 'loop',
-        loadChildren: './authorized.module#AuthorizedModule',
-      },
+      }
     ]
   },
 
